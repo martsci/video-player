@@ -1,0 +1,17 @@
+.button {
+    inline-size: 32px;
+    block-size: 32px;
+}
+
+#play{
+    background-image: url('../im');
+}
+#backward{
+    background-image: url();
+}
+#forward{
+    background-image: url();
+}
+#pause{
+    background-image: url();
+}
