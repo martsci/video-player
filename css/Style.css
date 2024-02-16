@@ -13,7 +13,6 @@ body{
 .player{
     margin-block-start: 100px;
     position: relative;
-    /*border: red solid 10px;*/
 }
 
 .player video{
@@ -36,7 +35,7 @@ body{
     gap: 20px;
     justify-content: center;
     align-items: center;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 
 .player-progress{
@@ -55,6 +54,7 @@ body{
 position: absolute;
 inset: 0;
 opacity: 0;
+transition: .3s opacity;
 }
 
 .player:hover .player-overlay{
